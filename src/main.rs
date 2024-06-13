@@ -7,12 +7,12 @@ fn main(){
 
 //Creating a dangling reference
 
-// fn dangling_fn() -> &string {
+fn dangling_fn() -> &string {
 
-//     let dangling_string = String::from("Rustaceans");
+    let dangling_string = String::from("Rustaceans");
 
-//     &dangling_string
-// }
+    &dangling_string 
+}
 
 //creating function that accept mutable reference
 
